@@ -6,6 +6,16 @@ body {
   background-color: #f0f0f0;
 }
 
+/* Video section */
+video#background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;

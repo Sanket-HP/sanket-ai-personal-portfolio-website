@@ -55,3 +55,12 @@ video#background-video {
     margin: 20px auto; 
   }
 }
+
+.welcome-message h1 {
+    font-size: 1.5em; 
+  }
+
+  .welcome-message p {
+    font-size: 0.9em; 
+  }
+}

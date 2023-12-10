@@ -30,8 +30,10 @@ video#background-video {
 .ai-image {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-}
+  border-radius: 50%; 
+  border: 5px solid #3498db; 
+  display: block;
+  margin: 0 auto 20px; 
 
 .enter-button {
   display: inline-block;
@@ -46,4 +48,10 @@ video#background-video {
 
 .enter-button:hover {
   background-color: #2980b9;
+}@media screen and (max-width: 600px) {
+  .enter-button {
+    display: block;
+    width: 80%; 
+    margin: 20px auto; 
+  }
 }
